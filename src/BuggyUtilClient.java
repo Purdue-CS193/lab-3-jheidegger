@@ -6,7 +6,9 @@ public class BuggyUtilClient {
         System.out.println("In: first = " + "\"Sean\"" +
                 ", last = " + "\"Flannery\"");
         System.out.println("Out: " +
-        StringUtils.makePurdueUsername("Sean", "Flannery"));
+
+                StringUtils.makePurdueUsername("Sean", "Flannery"));
+        //changes
     }
 }
 
